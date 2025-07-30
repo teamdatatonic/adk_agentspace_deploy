@@ -28,6 +28,7 @@ Before you begin, ensure you have the following:
     ```
     # Example .env content
     # Vertex AI backend config, uncomment and use
+    GOOGLE_GENAI_USE_VERTEXAI=1 
     GOOGLE_CLOUD_PROJECT=dt-agentspace-emea-dev
     GOOGLE_CLOUD_LOCATION=us-central1 # this location works well for deploying into global agentspace app
     GOOGLE_CLOUD_STORAGE_BUCKET=test-data-source-for-agentspace # staging bucket
